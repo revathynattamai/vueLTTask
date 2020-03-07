@@ -1,19 +1,13 @@
 <template>
   <div id="app">
-    <Index />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Index from "./components/Index.vue";
-// import Favourites from "./components/Favourites.vue";
 
 export default {
-  name: "App",
-  components: {
-    Index
-  },
-  methods: {},
+  name: "App"
 };
 </script>
 
